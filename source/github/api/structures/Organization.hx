@@ -1,5 +1,7 @@
 package github.api.structures;
 
+import github.api.structures.User.UserType;
+
 typedef Organization = {
 	var login:String;
 	var id:Int;

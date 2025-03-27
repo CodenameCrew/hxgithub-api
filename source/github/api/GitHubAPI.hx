@@ -5,7 +5,7 @@ import haxe.Exception;
 import haxe.Http;
 import haxe.Json;
 
-@:nullSafety(On)
+//@:nullSafety(Strict)
 class GitHubAPI {
 	private static var __cachedRateLimit(default, set):RateLimit;  // avoiding downloading everytime  - Nex
 	private static var __lastUpdate:Float = 0;
