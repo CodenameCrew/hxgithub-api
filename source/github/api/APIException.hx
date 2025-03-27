@@ -2,7 +2,7 @@ package github.api;
 
 import haxe.Exception;
 
-class GitHubAPIException extends Exception {
+class APIException extends Exception {
 	public var apiMessage:String;
 	public var documentationUrl:String;
 

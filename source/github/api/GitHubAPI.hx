@@ -132,12 +132,12 @@ class GitHubAPI {
 		return null;
 	}
 
-	private static inline function __parseGitHubException(obj:Dynamic):GitHubAPIException {
+	private static inline function __parseGitHubException(obj:Dynamic):APIException {
 		var msg:String = "(No message)";
 		var url:String = "(No API url)";
 		if (Reflect.hasField(obj, "message")) msg = Reflect.field(obj, "message");
 		if (Reflect.hasField(obj, "documentation_url")) url = Reflect.field(obj, "documentation_url");
-		return new GitHubAPIException(msg, url);
+		return new APIException(msg, url);
 	}
 
 	private static inline function _requestText(url:String):String {
