@@ -1,0 +1,9 @@
+{
+	"name": "hxgithub-api",
+	"url": "https://github.com/CodenameCrew/hxgithub-api",
+	"license": "MIT",
+	"tags": ["haxe", "haxeflixel", "github", "api"],
+	"description": "A Haxe library for communicating directly with GitHub's api!",
+	"version": "0.0.1",
+	"classPath": "source"
+}
